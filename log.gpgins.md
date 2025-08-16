@@ -2,6 +2,8 @@
 // > gpg (GnuPG) 2.2.40
 // > libgcrypt 1.10.1
 
+// debian 12
+
 res = subprocess.run(
   [
     "gpg",
