@@ -18,3 +18,19 @@ res = subprocess.run(
   ],
   capture_output=True, text=True
 )
+
+
+res = subprocess.run(
+  [
+    "gpg",
+    "--rfc4880",
+    "--decrypt",
+    "--no-symkey-cache",
+    "--batch",
+    "--pinentry-mode", "loopback",
+    "--passphrase", saps,
+    "--output", dec_out_path,
+    enc_out_path
+  ],
+  capture_output=True, text=True
+)
