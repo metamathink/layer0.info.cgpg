@@ -1,6 +1,6 @@
 // # gpg --version
-// >gpg (GnuPG) 2.2.40
-// >libgcrypt 1.10.1
+// > gpg (GnuPG) 2.2.40
+// > libgcrypt 1.10.1
 
 res = subprocess.run(
   [
