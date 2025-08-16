@@ -4,6 +4,7 @@
 
 // debian 12 x64
 // -z0, no compress
+// rfc4880
 
 res = subprocess.run(
   [
