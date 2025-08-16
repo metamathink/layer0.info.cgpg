@@ -3,6 +3,7 @@
 // > libgcrypt 1.10.1
 
 // debian 12 x64
+// -z0, no compress
 
 res = subprocess.run(
   [
